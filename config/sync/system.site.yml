@@ -1,5 +1,8 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: da
 uuid: 5f03e854-9b9f-41b9-9d64-c157fbcd2b75
-name: 'Aarhus mangler'
+name: 'Aarhus Ø mangler'
 mail: noreply@aarhus.dk
 slogan: ''
 page:
@@ -8,8 +11,5 @@ page:
   front: /node/add/proposal
 admin_compact_mode: false
 weight_select_max: 100
-langcode: da
 default_langcode: da
-_core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
 mail_notification: ''

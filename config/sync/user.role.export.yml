@@ -1,7 +1,9 @@
 uuid: 7a232e1c-a8a7-443e-b051-adff5b493c57
 langcode: da
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - field_permissions
 id: export
 label: Export
 weight: 3

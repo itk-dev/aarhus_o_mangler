@@ -19,79 +19,70 @@ tips:
     id: views-main
     plugin: text
     label: 'Håndtér indstillinger for views'
-    body: 'Vis eller redigér konfigurationen.'
     weight: 1
+    body: 'Vis eller redigér konfigurationen.'
   views-ui-displays:
     id: views-ui-displays
     plugin: text
     label: 'Vises i dette view'
-    body: 'Et display er en metode til at vise resultaterne, f.eks. som en side eller en blok. Et view kan indeholde flere displays, som vises her. Det aktive display er fremhævet.'
     weight: 2
-    attributes:
-      data-id: views-display-top
+    selector: '#views-display-top'
+    body: 'Et display er en metode til at vise resultaterne, f.eks. som en side eller en blok. Et view kan indeholde flere displays, som vises her. Det aktive display er fremhævet.'
   views-ui-view-admin:
     id: views-ui-view-admin
     plugin: text
     label: 'Vis administration'
-    body: 'Udfør administrative opgaver, som f.eks. at tilføje en beskrivelse eller oprette en kopi. Klik på dropdown-menuen for at se de tilgængelige muligheder.'
     weight: 3
-    location: left
-    attributes:
-      data-id: views-display-extra-actions
+    position: left-start
+    selector: '#views-display-extra-actions'
+    body: 'Udfør administrative opgaver, som f.eks. at tilføje en beskrivelse eller oprette en kopi. Klik på dropdown-menuen for at se de tilgængelige muligheder.'
   views-ui-format:
     id: views-ui-format
     plugin: text
     label: Output-format
-    body: 'Vælg hvordan resultaterne skal vises. Vælg f.eks. <em>Indhold</em> for at vise en komplet version af hvert resultat baseret på dine præsentationsindstillinger. Eller vælg <em>Felter</em> som gør det muligt kun at vise specifikke felter for hvert resultat. Yderligere formater kan tilføjes ved installere moduler som <em>udvider</em> Drupals kernefunktionalitet.'
     weight: 4
-    attributes:
-      data-class: views-ui-display-tab-bucket.format
+    selector: .views-ui-display-tab-bucket.format
+    body: 'Vælg hvordan resultaterne skal vises. Vælg f.eks. <em>Indhold</em> for at vise en komplet version af hvert resultat baseret på dine præsentationsindstillinger. Eller vælg <em>Felter</em> som gør det muligt kun at vise specifikke felter for hvert resultat. Yderligere formater kan tilføjes ved installere moduler som <em>udvider</em> Drupals kernefunktionalitet.'
   views-ui-fields:
     id: views-ui-fields
     plugin: text
     label: Felter
-    body: 'Hvis denne visning bruger filtre er de opstillet her. Du kan klikke på et felt for at konfigurere det.'
     weight: 5
-    attributes:
-      data-class: views-ui-display-tab-bucket.field
+    selector: .views-ui-display-tab-bucket.field
+    body: 'Hvis denne visning bruger filtre er de opstillet her. Du kan klikke på et felt for at konfigurere det.'
   views-ui-filter:
     id: views-ui-filter
     plugin: text
     label: 'Filtrer din visning'
-    body: 'Tilføj filtre for at begrænse mængden af resultater i dit output. Hvis du f.eks. kun ønsker at vise indhold, der er <em>udgivet</em>, kan du tilføje filtret <em>Udgivet</em> og vælge <em>Ja</em>.'
     weight: 6
-    attributes:
-      data-class: views-ui-display-tab-bucket.filter
+    selector: .views-ui-display-tab-bucket.filter
+    body: 'Tilføj filtre for at begrænse mængden af resultater i dit output. Hvis du f.eks. kun ønsker at vise indhold, der er <em>udgivet</em>, kan du tilføje filtret <em>Udgivet</em> og vælge <em>Ja</em>.'
   views-ui-filter-operations:
     id: views-ui-filter-operations
     plugin: text
     label: 'Filtrer handlinger'
-    body: 'Tilføj, omarranger eller fjern filtre.'
     weight: 7
-    attributes:
-      data-class: 'views-ui-display-tab-bucket.filter .dropbutton-widget'
+    selector: '.views-ui-display-tab-bucket.filter .dropbutton-widget'
+    body: 'Tilføj, omarranger eller fjern filtre.'
   views-ui-sorts:
     id: views-ui-sorts
     plugin: text
     label: Kriterie
-    body: 'Tilpas rækkefølgen af resultaterne. Klik på den aktive sorteingsregel for at konfigurere den.'
     weight: 8
-    attributes:
-      data-class: views-ui-display-tab-bucket.sort
+    selector: .views-ui-display-tab-bucket.sort
+    body: 'Tilpas rækkefølgen af resultaterne. Klik på den aktive sorteingsregel for at konfigurere den.'
   views-ui-sorts-operations:
     id: views-ui-sorts-operations
     plugin: text
     label: Sorteringshandlinger
-    body: 'Tilføj, omfordel eller fjern sorteringsregler.'
     weight: 9
-    attributes:
-      data-class: 'views-ui-display-tab-bucket.sort .dropbutton-widget'
+    selector: '.views-ui-display-tab-bucket.sort .dropbutton-widget'
+    body: 'Tilføj, omfordel eller fjern sorteringsregler.'
   views-ui-preview:
     id: views-ui-preview
     plugin: text
     label: Gennemse
-    body: 'Vis et preview.'
     weight: 10
-    location: left
-    attributes:
-      data-id: preview-submit
+    position: left-start
+    selector: '#preview-submit'
+    body: 'Vis et preview.'
