@@ -1665,8 +1665,7 @@ display:
         filter_groups: true
       display_extenders: {  }
       path: alle-forslag/export.xls
-      auth:
-        - basic_auth
+      auth: {  }
     cache_metadata:
       max-age: -1
       contexts:
