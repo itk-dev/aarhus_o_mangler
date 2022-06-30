@@ -1,6 +1,6 @@
 {
     "name": "itkdev/aarhus_o_mangler",
-    "description": "Project template for Drupal 8 projects with a relocated document root",
+    "description": "Aarhus mangler",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "homepage": "https://www.drupal.org/project/drupal",
@@ -22,8 +22,9 @@
         "drupal/bootstrap": "^3.21",
         "drupal/bootstrap_layouts": "^5.1",
         "drupal/conditional_fields": "^1.0",
-        "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-recommended": "^8.8",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
         "drupal/csv_serialization": "^1.4",
         "drupal/field_permissions": "^1.0",
         "drupal/geolocation": "^3.0",
@@ -43,7 +44,8 @@
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true
         }
     },
     "extra": {

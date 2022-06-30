@@ -19,7 +19,7 @@ $settings['file_scan_ignore_directories'] = [
 ];
 
 // Configuration sync path.
-$config_directories['sync'] = '../config/sync';
+$settings["config_sync_directory"] = '../config/sync';
 
 // Local settings. These come last so that they can override anything.
 if (file_exists(__DIR__ . '/settings.local.php')) {
