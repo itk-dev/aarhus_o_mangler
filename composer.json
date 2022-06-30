@@ -21,7 +21,7 @@
         "drupal/admin_audit_trail": "^1.0@alpha",
         "drupal/bootstrap": "^3.21",
         "drupal/bootstrap_layouts": "^5.1",
-        "drupal/conditional_fields": "^1.0",
+        "drupal/conditional_fields": "^4.0@alpha",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
