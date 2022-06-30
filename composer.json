@@ -1,5 +1,5 @@
 {
-    "name": "drupal/recommended-project",
+    "name": "itkdev/aarhus_o_mangler",
     "description": "Project template for Drupal 8 projects with a relocated document root",
     "type": "project",
     "license": "GPL-2.0-or-later",
@@ -16,7 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.2",
-        "cweagans/composer-patches": "~1.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/address": "~1.0",
         "drupal/admin_audit_trail": "^1.0@alpha",
         "drupal/bootstrap": "^3.21",
@@ -33,15 +33,18 @@
         "drupal/xls_serialization": "^1.1",
         "drush/drush": "^10.2"
     },
-    "require-dev": {
-    },
     "conflict": {
         "drupal/drupal": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true
+        }
     },
     "extra": {
         "drupal-scaffold": {
