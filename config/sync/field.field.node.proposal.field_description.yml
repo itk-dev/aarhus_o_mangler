@@ -10,7 +10,7 @@ field_name: field_description
 entity_type: node
 bundle: proposal
 label: Beskrivelse
-description: 'Beskriv kort hvorfor der er behov for denne facilitet.'
+description: 'Beskriv kort, hvorfor der er behov for denne facilitet.'
 required: true
 translatable: false
 default_value: {  }

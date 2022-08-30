@@ -12,7 +12,7 @@ field_name: field_location
 entity_type: node
 bundle: proposal
 label: 'Hvor skal idrætsfaciliteten placeres?'
-description: 'Vælg på kortet hvor dit  forslag til ny idrætsfacilitet skal placeres.'
+description: 'Vælg på kortet, hvor dit  forslag til ny idrætsfacilitet skal placeres.'
 required: true
 translatable: false
 default_value: {  }

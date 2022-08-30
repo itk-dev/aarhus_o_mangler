@@ -8,7 +8,7 @@ id: node.proposal.title
 field_name: title
 entity_type: node
 bundle: proposal
-label: 'Hvilken idrætsfacilitet mangler du?'
+label: 'Hvilken idrætsfacilitet mangler du på Aarhus Ø?'
 description: ''
 required: true
 translatable: true

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47479a81c67452c73e910b055041cb51",
+    "content-hash": "859d584b62e583c000684a2399bfbe08",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3280,6 +3280,29 @@
                 }
             ],
             "time": "2022-06-20T21:43:03+00:00"
+        },
+        {
+            "name": "itk-dev/web_accessibility_statement",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itk-dev/web_accessibility_statement.git",
+                "reference": "b27f2ea237f0712896f7440727c17c47a543e3ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itk-dev/web_accessibility_statement/zipball/b27f2ea237f0712896f7440727c17c47a543e3ea",
+                "reference": "b27f2ea237f0712896f7440727c17c47a543e3ea",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Provides path for accessibility statement",
+            "support": {
+                "issues": "https://github.com/itk-dev/web_accessibility_statement/issues",
+                "source": "https://github.com/itk-dev/web_accessibility_statement/tree/1.0.0"
+            },
+            "time": "2021-03-15T09:57:10+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",

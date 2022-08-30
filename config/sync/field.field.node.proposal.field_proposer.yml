@@ -11,7 +11,7 @@ id: node.proposal.field_proposer
 field_name: field_proposer
 entity_type: node
 bundle: proposal
-label: 'Er det dit eget ønske eller er du repræsentant for en forening eller gruppering?'
+label: 'Er det dit eget ønske, eller er du repræsentant for en forening eller gruppering?'
 description: ''
 required: true
 translatable: false

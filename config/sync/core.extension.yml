@@ -61,6 +61,7 @@ module:
   video_embed_field: 0
   views_autorefresh_d8: 0
   views_ui: 0
+  web_accessibility_statement: 0
   xls_serialization: 0
   menu_link_content: 1
   views: 10

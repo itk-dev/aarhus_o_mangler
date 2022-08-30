@@ -32,7 +32,8 @@
         "drupal/video_embed_field": "^2.2",
         "drupal/views_autorefresh_d8": "^1.2",
         "drupal/xls_serialization": "^1.1",
-        "drush/drush": "^10.2"
+        "drush/drush": "^10.2",
+        "itk-dev/web_accessibility_statement": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
