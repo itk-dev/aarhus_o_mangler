@@ -139,6 +139,7 @@ a:hover {
 }
 
 .help-block {
+  font-size: 14px;
   color: var(--color-gray-700, #333)
 }
 
