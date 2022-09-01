@@ -1,0 +1,21 @@
+uuid: 1b5d65bf-90bf-426a-a27b-868fadb12b2f
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kategori
+    - node.type.proposal
+  module:
+    - options
+id: node.proposal.field_kategori
+field_name: field_kategori
+entity_type: node
+bundle: proposal
+label: Kategori
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,78 @@
+uuid: 0dfd0ab2-8cb4-4e82-bfb2-025873241229
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_kategori
+field_name: field_kategori
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Sejlsport
+      label: Sejlsport
+    -
+      value: Kano/Kajak/roning
+      label: Kano/Kajak/roning
+    -
+      value: 'Stand up padle'
+      label: 'Stand up padle'
+    -
+      value: Kabelbane
+      label: Kabelbane
+    -
+      value: Lystbådehavn
+      label: Lystbådehavn
+    -
+      value: Havsvømning
+      label: Havsvømning
+    -
+      value: Vinterbadning
+      label: Vinterbadning
+    -
+      value: Idrætshal
+      label: Idrætshal
+    -
+      value: Svømmehal/badeland
+      label: Svømmehal/badeland
+    -
+      value: Fodbold/kunstgræs
+      label: Fodbold/kunstgræs
+    -
+      value: Beachvolley
+      label: Beachvolley
+    -
+      value: Padeltennis
+      label: Padeltennis
+    -
+      value: Multibane
+      label: Multibane
+    -
+      value: Cykling
+      label: Cykling
+    -
+      value: Fitness/styrketræning
+      label: Fitness/styrketræning
+    -
+      value: Streetbasket
+      label: Streetbasket
+    -
+      value: Udspring
+      label: Udspring
+    -
+      value: Gadeidræt/skate
+      label: Gadeidræt/skate
+    -
+      value: Andet
+      label: Andet
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
