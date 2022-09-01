@@ -2,7 +2,7 @@ _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
 langcode: da
 uuid: 5f03e854-9b9f-41b9-9d64-c157fbcd2b75
-name: 'Aarhus Ø mangler'
+name: AarhusØ-mangler
 mail: noreply@aarhus.dk
 slogan: ''
 page:
