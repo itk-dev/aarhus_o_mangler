@@ -1,14 +1,16 @@
--/**
+/**
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
 
 :root {
   /* Color variables */
-  --color-primary: #3661d8;
-  --color-primary-darker: #2b4aa0;
-  --color-gray-700: #444;
-  --color-gray-900: #222;
+  --color-primary: hsl(224, 68%, 45%);
+  --color-primary-darker: hsl(224, 68%, 30%);
+  --color-success: hsl(130, 85%, 25%);
+  --color-success-darker: hsl(130, 85%, 15%);
+  --color-gray-700: hsl(0, 0%, 27%);
+  --color-gray-900: hsl(0, 0%, 13%);
   --text-color-primary: var(--color-gray-900);
 
   /* Transitions */
@@ -16,7 +18,6 @@
   --transition-color-out: color .4s ease-in-out;
   --transition-border-in: border .2s ease-in-out;
   --transition-border-out: border .4s ease-in-out;
-
 }
 
 /* Body */
@@ -30,6 +31,33 @@ body {
 
 .main-container {
   max-width: 1200px;
+}
+
+/* Typograpy */
+
+.title-h4 {
+  font-size: 18px;
+}
+
+
+/* Brand */
+.navbar-default .navbar-brand {
+  color: var(--color-primary-darker, darkblue);
+}
+.navbar-default .navbar-brand:hover {
+  color: var(--color-primary, blue);
+}
+
+/* Buttons */
+.btn-success {
+  color: #fff;
+  background-color: var(--color-success, green);
+  border-color: var(--color-success, green);
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: var(--color-success-darker, darkgreen);
+  border-color: var(--color-success-darker, darkgreen);
 }
 
 /* Navigation */
@@ -108,6 +136,11 @@ a:hover {
 .geolocation-map-control input.form-autocomplete,
 .geolocation-map-control input {
   box-sizing: border-box;
+}
+
+.help-block {
+  font-size: 14px;
+  color: var(--color-gray-700, #333)
 }
 
 /* View table */
