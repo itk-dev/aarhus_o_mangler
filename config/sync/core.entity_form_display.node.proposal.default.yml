@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
     - field.field.node.proposal.field_facilitet
+    - field.field.node.proposal.field_kategori
     - field.field.node.proposal.field_location
     - field.field.node.proposal.field_name
     - field.field.node.proposal.field_phone
@@ -14,7 +15,6 @@ dependencies:
     - field.field.node.proposal.field_proposer_details
     - node.type.proposal
   module:
-    - conditional_fields
     - geolocation_leaflet
 id: node.proposal.default
 targetEntityType: node
@@ -43,14 +43,6 @@ content:
     settings:
       placeholder: ''
       size: 60
-    third_party_settings: {  }
-  field_facilitet:
-    type: string_textfield
-    weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   field_location:
     type: geolocation_leaflet
@@ -599,12 +591,21 @@ content:
             effect: show
             effect_options: {  }
             selector: ''
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
 hidden:
   created: true
+  field_facilitet: true
+  field_kategori: true
   langcode: true
   path: true
   promote: true
   status: true
   sticky: true
-  title: true
   uid: true
