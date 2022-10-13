@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.proposal.field_consent
     - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
+    - field.field.node.proposal.field_facilitet
     - field.field.node.proposal.field_location
     - field.field.node.proposal.field_name
     - field.field.node.proposal.field_phone
@@ -29,6 +30,7 @@ hidden:
   field_consent: true
   field_description: true
   field_email: true
+  field_facilitet: true
   field_location: true
   field_name: true
   field_phone: true
