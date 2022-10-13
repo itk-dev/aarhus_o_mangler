@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.proposal.field_consent
     - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
+    - field.field.node.proposal.field_facilitet
     - field.field.node.proposal.field_location
     - field.field.node.proposal.field_name
     - field.field.node.proposal.field_phone
@@ -45,6 +46,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 4
+    region: content
+  field_facilitet:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 8
     region: content
   field_location:
     type: geolocation_map
