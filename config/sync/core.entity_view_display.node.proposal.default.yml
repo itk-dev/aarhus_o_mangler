@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.proposal.field_description
     - field.field.node.proposal.field_email
     - field.field.node.proposal.field_facilitet
+    - field.field.node.proposal.field_kategori
     - field.field.node.proposal.field_location
     - field.field.node.proposal.field_name
     - field.field.node.proposal.field_phone
@@ -70,12 +71,16 @@ content:
         format: plain_text
       centre:
         fit_bounds:
-          enable: false
+          enable: true
           weight: -101
           settings:
             reset_zoom: true
-            min_zoom: 0
+            min_zoom: 12
           map_center_id: fit_bounds
+        client_location:
+          enable: false
+          weight: 0
+          map_center_id: client_location
         fixed_boundaries:
           enable: false
           weight: 0
@@ -85,23 +90,13 @@ content:
             north: ''
             east: ''
           map_center_id: fixed_boundaries
-        client_location:
-          enable: false
-          weight: 0
-          map_center_id: client_location
         fixed_value:
-          enable: false
+          enable: true
           weight: 0
           settings:
             location_option_id: fixed_value
-            latitude: null
-            longitude: null
-          map_center_id: location_plugins
-        freeogeoip:
-          enable: false
-          weight: 0
-          settings:
-            location_option_id: freeogeoip
+            latitude: 56.15345
+            longitude: 10.214142
           map_center_id: location_plugins
         ipstack:
           enable: false
@@ -109,6 +104,12 @@ content:
           settings:
             location_option_id: ipstack
             access_key: ''
+          map_center_id: location_plugins
+        freeogeoip:
+          enable: false
+          weight: 0
+          settings:
+            location_option_id: freeogeoip
           map_center_id: location_plugins
       map_provider_id: leaflet
       map_provider_settings:
@@ -588,7 +589,7 @@ content:
               transparent: false
               identify: false
             enabled: false
-        zoom: '10'
+        zoom: '13'
         height: 400px
         width: 100%
         minZoom: '0'
@@ -662,5 +663,6 @@ content:
     weight: 1
     region: content
 hidden:
+  field_kategori: true
   langcode: true
   links: true
