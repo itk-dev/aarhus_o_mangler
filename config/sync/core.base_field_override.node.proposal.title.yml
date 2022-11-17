@@ -1,0 +1,18 @@
+uuid: 32bf6b63-dbf1-4e32-ab17-d886868a73be
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.proposal
+id: node.proposal.title
+field_name: title
+entity_type: node
+bundle: proposal
+label: 'Hvilken facilitet mangler du på Aarhus Ø?'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
