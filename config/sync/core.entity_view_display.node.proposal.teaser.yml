@@ -31,6 +31,7 @@ hidden:
   field_description: true
   field_email: true
   field_facilitet: true
+  field_kategori: true
   field_location: true
   field_name: true
   field_phone: true
